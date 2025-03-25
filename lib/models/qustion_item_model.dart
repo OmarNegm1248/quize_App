@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quize_app1/models/answer_item_model.dart';
+import 'package:quize_app/models/answer_item_model.dart';
 
 class QustionItemModel {
   final String title;

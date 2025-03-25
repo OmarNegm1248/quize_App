@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quize_app1/pages/home_page.dart';
+import 'package:quize_app/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
