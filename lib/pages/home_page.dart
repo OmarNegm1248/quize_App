@@ -19,6 +19,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+appBar:AppBar(
+title:Text("Quize App"),
+),
       body: SafeArea(
         child:
             !showTotalScore
