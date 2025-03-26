@@ -1,0 +1,13 @@
+import random
+
+# Sample first and last names
+first_names = ["John", "Jane", "Michael", "Emily", "Chris", "Sarah", "David", "Laura", "James", "Sophia"]
+last_names = ["Doe", "Smith", "Johnson", "Davis", "Brown", "Wilson", "Lee", "Martinez", "Anderson", "Taylor"]
+
+# Generate 50 random names with salaries
+with open('/e:/Tarek El Abd Course/quize_app/omarNegm.txt', 'w') as file:
+    for _ in range(50):
+        first_name = random.choice(first_names)
+        last_name = random.choice(last_names)
+        salary = random.randint(40000, 80000)  # Random salary between 40,000 and 80,000
+        file.write(f"{first_name} {last_name}, {salary}\n")
