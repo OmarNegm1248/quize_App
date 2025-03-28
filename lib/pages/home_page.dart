@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
 appBar:AppBar(
 title:Text("Quize App"),
+  centreTitle:true,
 ),
       body: SafeArea(
         child:
